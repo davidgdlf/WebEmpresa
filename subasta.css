@@ -1,0 +1,91 @@
+main h1 {
+    color: #007bff; /* Color azul */
+    text-align: center; /* Alinear al centro */
+}
+
+/* Estilos para cada grupo de subastas */
+.grupo-subastas-arriba,
+.grupo-subastas-abajo {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las subastas */
+    margin-top: 100px; /* Espacio entre los grupos de subastas */
+}
+
+/* Estilos para cada subasta */
+.subasta {
+    width: 200px; /* Ancho fijo para cada subasta */
+    margin-bottom: 20px; /* Espacio entre las subastas */
+}
+
+/* Estilos para la imagen del Ferrari */
+.imagen-ferrari {
+    width: 200px; /* Ancho más pequeño para la imagen del Ferrari */
+    height: 150px; /* Altura automática para mantener la proporción */
+}
+
+
+/* Estilos para los botones de subir y bajar */
+.btn-subir,
+.btn-bajar {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Borde redondeado */
+    width: 30px; /* Ancho */
+    height: 30px; /* Altura */
+    font-size: 18px; /* Tamaño de fuente */
+    cursor: pointer; /* Cursor de puntero */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+/* Estilos para el efecto de hover de los botones */
+.btn-subir:hover,
+.btn-bajar:hover {
+    background-color: #0056b3; /* Color de fondo azul más oscuro al pasar el ratón */
+}
+
+/* Estilos para el botón de confirmar precio */
+.btn-confirmar {
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Estilos para el efecto de hover del botón de confirmar precio */
+.btn-confirmar:hover {
+    background-color: #0056b3; /* Color de fondo azul más oscuro al pasar el ratón */
+}
+/* Estilos específicos para la página de subastas */
+main h1 {
+    color: #007bff;
+}
+
+/* Estilos para cada grupo de subastas */
+.grupo-subastas {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las subastas */
+}
+
+/* Estilos para cada subasta */
+.subasta {
+    width: 200px; /* Ancho fijo para cada subasta */
+    margin-bottom: 20px; /* Espacio entre las subastas */
+    margin-left: 100px;
+}
+/* Estilos para cada grupo de subastas */
+.grupo-subastas-arriba,
+.grupo-subastas-abajo {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre las subastas */
+    margin-top: 100px; /* Espacio entre los grupos de subastas */
+}
+
+
+

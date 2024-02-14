@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    width: 150px; /* Aumentamos el tamaño del logo */
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transición de color para el efecto hover */
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Color de texto al hacer hover */
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+/* Estilos para la descripción de la empresa */
+.descripcion {
+    margin-top: 20px;
+}
+
+.descripcion h2 {
+    color: #333;
+}
+
+.descripcion p {
+    color: #666;
+    font-size: 16px;
+}
+
+.fotos {
+    margin-top: 40px;
+    text-align: center; 
+}
+
+.foto {
+    display: inline-block;
+    margin: 0 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.foto img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.foto:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+/* Estilos para el footer */
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; /* Fijar el footer */
+    bottom: 0; /* Alinearlo en la parte inferior */
+    width: 100%; /* Ancho completo */
+}
+
+
+/* Estilo para el contenedor del texto y el icono */
+footer .redes-sociales {
+    display: inline-block; /* Para que el texto y la imagen estén en línea */
+    vertical-align: middle; /* Alinear verticalmente al centro */
+}
+
+/* Estilo para el texto "Nuestras Redes Sociales" en el footer */
+footer p {
+    margin: 0; /* Eliminar el margen predeterminado */
+    display: inline-block; /* Para que el texto y la imagen estén en línea */
+    vertical-align: middle; /* Alinear verticalmente al centro */
+}
+
+/* Estilo para el icono de Facebook en el footer */
+footer img {
+    width: 30px; /* Ajusta el tamaño del logo de Facebook según sea necesario */
+    margin-left: 5px; /* Espacio entre el texto y el logo */
+    vertical-align: middle; /* Alinear verticalmente al centro */
+}
+
+
+
+
+
